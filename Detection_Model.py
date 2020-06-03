@@ -107,15 +107,15 @@ history=model.fit(train_data, y_train,
 #model.save('model_final_version_2.h5')
 
 ##Testing the trained model
-#sas='http://www.krazl.com/blog/?p=77'
-#sas=unquote_plus(sas)
-#sas=[s.lower() for s in sas]
-#sas="".join(sas)
-#ted=np.array([sas])
-#ted=tk.texts_to_sequences(ted)
-#yed=pad_sequences(ted, maxlen=1014, padding='post')
-#pred=model.predict(yed)
-#pred=saved_model.predict(yed)  
+#test='http://www.krazl.com/blog/?p=77" or 1=1'
+#test=unquote_plus(test)
+#test=[s.lower() for s in test]
+#test="".join(test)
+#test=np.array([test])
+#test=tk.texts_to_sequences(test)
+#test=pad_sequences(test, maxlen=1014, padding='post')
+#pred=model.predict(test)
+#pred=saved_model.predict(test)  
 #pred=(pred>0.5)
 #
 #if pred[0][0]==True:
