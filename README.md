@@ -1,2 +1,2 @@
 # Overview
-The model combines the characteristics of URLs in the field of web attacks at the character level so that it can detect all kinds of malicious URLs that appear outside of the keyword library. The model treats URLs, file paths, and registries as a short string and uses character-level embedding and a convolutional neural network to simultaneously extract features and classifications.
+The model combines the characteristics of URLs in the field of web attacks at the character level.It treats URLs, file paths, and registries as a short string.The model contains a character-level embedding and a convolutional neural network to extract features, and the extracted features is passed onto the hidden layers for classification.
