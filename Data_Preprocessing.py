@@ -7,14 +7,6 @@ from sklearn.model_selection import train_test_split
 
 #DATA PREPROCESSING SECTION BEGINS
 
-#Initializing conv_filter_size, conv_window_size, pooling_window_size
-conv_layers = [[256, 7, 3],
-               [256, 7, 3],
-               [256, 3, -1],
-               [256, 3, -1],
-               [256, 3, -1],
-               [256, 3, 3]]
-
 #Loading dataset
 load_data = pd.read_csv('Data/URL.txt', header=None,sep='\t')
 
