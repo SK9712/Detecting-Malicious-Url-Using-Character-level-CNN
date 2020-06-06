@@ -5,7 +5,6 @@ from keras.layers import Input, Dense, Flatten, Dropout, Activation
 from keras.layers import Conv1D, MaxPooling1D, Embedding
 
 
-
 #NEURAL NETWORK CREATION BEGINS
 
 #Hot embedding of vocabulary set and other parameter initialization
