@@ -5,7 +5,6 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
-#DATA PREPROCESSING SECTION BEGINS
 
 #Loading dataset
 load_data = pd.read_csv('Data/URL.txt', header=None,sep='\t')
@@ -54,6 +53,4 @@ test_data = pad_sequences(test_sequences, maxlen=1014, padding='post')
 #Converting each observation of training and testing data to arrays
 train_data = np.array(train_data, dtype='float32')
 test_data = np.array(test_data, dtype='float32')
-
-#DATA PREPROCESSING SECTION ENDS
 
