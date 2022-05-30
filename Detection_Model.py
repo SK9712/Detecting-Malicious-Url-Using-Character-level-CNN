@@ -1,6 +1,5 @@
 from Data_Preprocessing import *
 from urllib.parse import unquote_plus
-from keras.models import Model, load_model
 from keras.layers import Input, Dense, Flatten, Dropout, Activation
 from keras.layers import Conv1D, MaxPooling1D, Embedding
 
