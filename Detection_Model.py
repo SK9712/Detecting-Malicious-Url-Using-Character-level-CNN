@@ -106,6 +106,7 @@ history=model.fit(train_data, y_train,
 #    plt.plot(x, val_loss, 'r', label='Validation loss')
 #    plt.title('Training and validation loss')
 #    plt.legend()
+#    plt.savefig('training_testing_accuracy_loss.png')
 
 #plot_history(history)
 
